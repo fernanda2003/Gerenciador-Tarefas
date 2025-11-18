@@ -63,6 +63,9 @@ Front-end
 
 
  ## Como rodar o projeto
+Clone o projeto https://github.com/fernanda2003/Gerenciador-Tarefas.git
 
+No terminal 
+NPM RUN
 
 
