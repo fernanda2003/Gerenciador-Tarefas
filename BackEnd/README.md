@@ -9,6 +9,9 @@
 
 ## 💡 Ideia geral da aplicação
 
+A aplicação é um Gerenciador de Tarefas composto por um Back-end em Flask e um Front-end em Next.js.
+O sistema permite criar, listar, editar e excluir tarefas, oferecendo uma API estruturada em MVC, documentada com Swagger, e uma interface moderna construída com Next.js.
+O projeto foi desenvolvido para fins acadêmicos na AP1 da disciplina de Full Stack.
 
 ---
 
