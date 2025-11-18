@@ -1,90 +1,65 @@
-# 🗂️ Gerenciador de Tarefas — API Flask (Back-end)
+# 🗂️ Gerenciador de Tarefas 
 
 ## Grupo 
 
-- Joao Pedro Silva Antunes
-- Fernanda Aparecida Figueiredo da Silva
 - Alan Araújo da Silveira
 - Ana Cláudia Monteiro Misquita
+- Joao Pedro Silva Antunes
+- Fernanda Aparecida Figueiredo da Silva
 
 ## 💡 Ideia geral da aplicação
-Esta aplicação é uma **API de Gerenciamento de Tarefas**, desenvolvida com **Flask**, com o objetivo de permitir que cada usuário **crie, liste, edite e exclua** suas próprias tarefas.  
-O sistema visa **organizar e acompanhar atividades diárias**, servindo como base para uma futura integração com o front-end.  
 
-O projeto segue a arquitetura **MVC (Model-View-Controller)** e foi desenvolvido para fins acadêmicos, como parte da **Avaliação AP1 da disciplina FFS**.
 
 ---
 
 ## ⚙️ Tecnologias utilizadas
+Back-end
 - **Python 3.12+**
-- **Flask** (framework web)
-- **Flask-SQLAlchemy** (ORM para persistência de dados)
-- **SQLite** (banco de dados)
-- **Flask-Swagger-UI** (documentação da API)
-- **Docker** (para conteinerização)
-- **Git/GitHub** (para controle de versão)
+- **Flask** 
+- **Flask-SQLAlchemy** 
+- **SQLite** 
+- **Flask-Swagger-UI** 
+- **Docker** 
+
+Front-end
+- **Next.js 14+**
+- **React** 
+- **TypeScript** 
+- **SQLite** 
+- **Node.js** 
 
 ---
 
-## 🧩 Estrutura do projeto (MVC)
+## 🧩 Estrutura do projeto 
 
 ```
-📁 Gerenciador-Tarefas/
+📁 Projeto/
 │
-├── controller/ # Controladores e regras de negócio
-│ ├── Gerenciador-Tarefas/
-│ │ ├── app.py
-│ │ ├── README.md
-│ │ └── Requisitos.docx
-│ └── script/
-│ └── appRecuperarSenha.py
+├── BackEnd/
+│   ├── controller/          
+│   ├── models/              
+│   ├── swagger/             
+│   ├── app.py               
+│   ├── meubanco.db          
+│   ├── dockerfile           
+│   └── Requisitos.docx      
 │
-├── models/ # Modelos e conexão com o banco de dados
-│ ├── agenda.py
-│ ├── bancoSQL.py
-│ └── usuario.py
+├── Front/
+│   ├── public/              
+│   ├── src/app/             
+│   ├── dockerfile           
+│   ├── package.json         
+│   ├── tailwind.config.js   
+│   └── next.config.ts       
 │
-├── swagger/ # Configuração da documentação Swagger
-│ ├── namespace/
-│ │ ├── agendanamespace.py
-│ │ └── usuarionamespace.py
-│ ├── swaggerconfig.py
-│ └── swaggerinit.py
-│
-├── app.py # Ponto de entrada da aplicação Flask
-├── dockerfile # Configuração Docker
-├── requirements.txt # Dependências do projeto
-├── meubanco.db # Banco de dados SQLite
-└── README.md # Relatório do projeto
-```
-
- ## Diagrama ER
-
-![Logo do projeto](Imagem%20do%20WhatsApp%20de%202025-10-07%20%C3%A0(s)%2010.14.37_7a471e5f.jpg)
-
-
- ## Como rodar API
-
- Para rodar a api tem que 
-
- Primeiro fazer o git clone do repositorio. 
-
- ``` git clone https://github.com/fernanda2003/Gerenciador-Tarefas.git ```
-
- Logo em seguida acessa o terminal e baixa os requirements. 
-
- ``` pip install -r requirements.txt ```
-
-Por ultimo só execulte o app.py para ter acesso da api.
-
-1- acesse a pasta do projeto pelo terminal
+├── Entidade Relacionamento.jpg 
+└── README.md                    
 
 ```
-cd Gerenciador-Tarefas 
-```
 
-2- execute o app.py pelo terminal
 
-```
-python app.py
-```
+
+ ## Como rodar o projeto
+
+
+
