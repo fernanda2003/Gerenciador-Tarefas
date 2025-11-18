@@ -13,6 +13,11 @@ A aplicação é um Gerenciador de Tarefas composto por um Back-end em Flask e u
 O sistema permite criar, listar, editar e excluir tarefas, oferecendo uma API estruturada em MVC, documentada com Swagger, e uma interface moderna construída com Next.js.
 O projeto foi desenvolvido para fins acadêmicos na AP1 da disciplina de Full Stack.
 
+## Objetivo do projeto
+
+- Fornecer uma aplicação completa com front-end e back-end que permita gerenciar tarefas (CRUD).
+- Demonstrar uso de boas práticas (estrutura modular, documentação de API, containerização).
+
 ---
 
 ## ⚙️ Tecnologias utilizadas
