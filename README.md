@@ -14,11 +14,6 @@ Este repositório contém dois módulos principais:
 - `Front/` — aplicação front-end (Next.js) pronta para rodar localmente ou em container.
 - `BackEnd/` — API REST desenvolvida em Flask com persistência via SQLite e documentação via Swagger (Flask-RESTX).
 
-Link do repositorio do Front-End:
-`https://github.com/ANAMONTEIROMISQUITA/agenda-tarefa/tree/next`
-
-
-
 ## Objetivos do projeto
 
 - Fornecer uma aplicação completa com front-end e back-end que permita gerenciar tarefas (CRUD).
