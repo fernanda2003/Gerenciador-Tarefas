@@ -155,29 +155,5 @@ docker build -t gerenciador-front .
 docker run -p 3000:3000 gerenciador-front
 ```
 
-## Boas práticas e recomendações
 
-- Mantenha commits pequenos e descritivos (ex.: `feat: adicionar endpoint de tarefas`, `fix: corrigir bug de salvamento`).
-- Use branches para features e PRs para revisão.
-- Inclua testes automatizados quando possível (unitários e integração).
 
-## Checklist para entrega (verificação)
-
-Antes de enviar o projeto, verifique:
-
-1. [ ] `BackEnd` inicia sem erros (`python app.py`).
-2. [ ] `Front` inicia sem erros (`npm run dev`).
-3. [ ] CRUD funciona (pelo front ou via Swagger/curl).
-4. [ ] README descreve como rodar front e back (este README atualizado cobre isso).
-5. [ ] Código no GitHub com commits claros.
-
-## Próximos passos (posso automatizar)
-
-Se você quiser eu posso:
-
-- Gerar um `requirements.txt` para o `BackEnd` com as dependências detectadas e um pequeno script de inicialização.
-- Adicionar exemplos de chamadas `fetch`/`axios` no `Front` para consumir os endpoints (integração CRUD básica).
-- Criar um `docker-compose.yml` que sobe `front` + `backend` juntos com redes e volumes.
-- Adicionar instruções para testes automáticos e CI (GitHub Actions) para rodar lint e testes.
-
-Diga qual desses itens gostaria que eu criasse agora e eu procedo a gerar os arquivos e atualizar o repositório.
