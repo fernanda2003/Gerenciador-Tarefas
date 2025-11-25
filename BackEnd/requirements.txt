@@ -1,0 +1,9 @@
+flask
+SQLAlchemy
+Flask-SQLAlchemy
+flask-restx
+flask-swagger-ui
+python-dotenv
+requests
+flask_cors
+gunicorn

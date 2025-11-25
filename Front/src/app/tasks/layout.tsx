@@ -36,7 +36,6 @@ const Tasks = () => {
   const [loading, setLoading] = useState(true);
   const [dialogOpen, setDialogOpen] = useState(false);
 
-  // 🔥 Aqui estava o erro!
   const [editingTask, setEditingTask] = useState<Task | null>(null);
 
   const [searchTerm, setSearchTerm] = useState("");
